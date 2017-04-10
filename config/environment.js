@@ -2,7 +2,7 @@
 
 module.exports = function(environment) {
   var ENV = {
-    modulePrefix: 'super-rentals',
+    modulePrefix: 'ember-super-rentals-tutorial',
     environment: environment,
     rootURL: '/',
     locationType: 'auto',
@@ -43,6 +43,8 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
+    ENV.locationType = 'hash';
+    ENV.rootURL = '/super-rentals/';
 
   }
 
