@@ -4,7 +4,7 @@ module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'super-rentals',
     environment: environment,
-    rootURL: '/',
+    rootURL: '/ember-super-rentals-tutorial/',
     locationType: 'auto',
     EmberENV: {
       FEATURES: {
@@ -44,7 +44,7 @@ module.exports = function(environment) {
 
   if (environment === 'production') {
     ENV.locationType = 'hash';
-    ENV.rootURL = '/super-rentals/';
+    ENV.rootURL = '/ember-super-rentals-tutorial/';
 
   }
 
